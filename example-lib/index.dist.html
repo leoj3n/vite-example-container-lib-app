@@ -1,0 +1,21 @@
+<!-- the production demo page, copied into dist/ -->
+<div class="es"></div>
+<div class="umd"></div>
+<div class="iife"></div>
+
+<script type="module">
+  import myLib from './example-lib.es.js'
+
+  myLib('.es')
+</script>
+
+<script src="./example-lib.umd.js"></script>
+<script>
+  MyLib('.umd')
+  delete window.MyLib // so that it won't affect iife
+</script>
+
+<script src="./example-lib.iife.js"></script>
+<script>
+  MyLib('.iife')
+</script>

@@ -1,0 +1,16 @@
+{
+  "name": "example-container",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "example-lib",
+    "example-app"
+  ],
+  "scripts": {
+    "example-lib-dev": "yarn workspace example-lib dev",
+    "example-app-dev": "yarn workspace example-app dev",
+    "start": "echo 'In terminal A run `yarn example-lib-dev`, in terminal B run `yarn example-app-dev`'"
+  },
+  "packageManager": "yarn@3.2.0"
+}

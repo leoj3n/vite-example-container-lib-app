@@ -1,0 +1,17 @@
+{
+  "name": "example-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --config ./vite.config.ts",
+    "build": "vite build --config ./vite.config.ts"
+  },
+  "dependencies": {
+    "example-lib": "workspace:*",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "*",
+    "vite": "^2.8.6"
+  }
+}
