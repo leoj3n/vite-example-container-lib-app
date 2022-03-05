@@ -19,6 +19,9 @@
     "debug": "node --inspect-brk ../../vite/bin/vite",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
   "devDependencies": {
     "vite": "^2.8.6"
   }

@@ -631,6 +631,7 @@ __metadata:
   resolution: "example-lib@workspace:example-lib"
   dependencies:
     vite: ^2.8.6
+    vue: ^3.2.25
   languageName: unknown
   linkType: soft
 
